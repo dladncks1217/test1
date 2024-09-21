@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack ./webpack.config.js",
+    "server": "node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "raw-loader": "^4.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ts-loader": "^9.5.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0"
+  }
+}
